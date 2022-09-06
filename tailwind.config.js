@@ -7,7 +7,11 @@ module.exports = {
       nav: '#440464',
       footer: '#DD7A1E',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        Mulish: ['Mulish'],
+      },
+    },
   },
   plugins: [],
 };
