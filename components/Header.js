@@ -3,11 +3,15 @@ import Link from 'next/link';
 import logo from '../public/sports-logo-transparent.png';
 export default function Header(params) {
   return (
-    <nav className='flex items-center justify-between bg-nav pr-6 pl-6 lg:bg-green-500'>
+    <nav className='flex items-center justify-between bg-nav pr-6 pl-6 lg:bg-green-500 sticky top-0 z-50'>
       <div className='pr-6 pl-6'>
-        <button className='transition ease-in-out duration-300 hover:-translate-y-1'>
-          <Image src={logo} alt='logo' width={100} height={100} />
-        </button>
+        <Link href='/'>
+          <a>
+            <button className='transition ease-in-out duration-300 hover:-translate-y-1'>
+              <Image src={logo} alt='logo' width={100} height={100} />
+            </button>
+          </a>
+        </Link>
       </div>
       <div className='hidden md:block'>
         <h1 className='text-2xl transition ease-in-out duration-300 hover:-translate-y-1'>

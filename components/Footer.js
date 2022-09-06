@@ -1,4 +1,5 @@
 export default function Footer(params) {
+  // Todo make responsive and stick to the bottom
   return (
     <div className='bg-footer inset-x-0 bottom-0 pt-8 pb-8'>
       <div className='flex justify-around'>
