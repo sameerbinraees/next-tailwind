@@ -13,12 +13,12 @@ export default function Header(params) {
           </a>
         </Link>
       </div>
-      <div className='hidden md:block'>
+      <div className='hidden sm:block'>
         <h1 className='text-2xl transition ease-in-out duration-300 hover:-translate-y-1'>
           Go Fight for it team
         </h1>
       </div>
-      <div className='hidden w-2/5 md:block'>
+      <div className='hidden w-2/5 navWidth:block'>
         <div className='inline-flex w-full justify-around'>
           <div className='transition ease-in-out duration-300 hover:-translate-y-1'>
             <Link href='/'>Home</Link>
@@ -43,7 +43,7 @@ export default function Header(params) {
           </div>
         </div>
       </div>
-      <div className='block md:hidden'>
+      <div className='block navWidth:hidden'>
         <button className='rounded-full'>
           <svg
             xmlns='http://www.w3.org/2000/svg'
