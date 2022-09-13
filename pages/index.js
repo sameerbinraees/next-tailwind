@@ -3,13 +3,17 @@ import Image from 'next/image';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 
 export default function Home() {
-  // TODO: convert this to urls and get static props like about page
+  // TODO: convert this to get static props like about page
   const slides = [
-    { url: '/img3.png', key: 2, legend: 'Play with pride!' },
-    { url: '/img1.png', key: 1, legend: 'Wear with pride!' },
-    { url: '/img2.png', key: 2, legend: 'More than a team, a family!' },
+    { url: 'https://i.postimg.cc/ncFrSQvk/img3.png', key: 2, legend: 'Play with pride!' },
+    { url: 'https://i.postimg.cc/NF4Mfgwm/img1.png', key: 1, legend: 'Wear with pride!' },
     {
-      url: '/img4.png',
+      url: 'https://i.postimg.cc/XNcXggyq/img2.png',
+      key: 2,
+      legend: 'More than a team, a family!',
+    },
+    {
+      url: 'https://i.postimg.cc/xT6CwT5S/img4.png',
       key: 2,
       legend: `Practice like you have never won, Play like you have never lost!`,
     },
