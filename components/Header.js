@@ -3,7 +3,10 @@ import Link from 'next/link';
 import logo from '../public/sports-logo-transparent.png';
 export default function Header(params) {
   return (
-    <nav className='flex items-center justify-between bg-nav pr-6 pl-6 lg:bg-green-500 sticky top-0 z-50'>
+    <nav
+      className='flex items-center justify-between bg-nav pr-6 pl-6 lg:bg-green-500 sticky top-0 z-50'
+      style={{ color: 'white' }}
+    >
       <div className='pr-6 pl-6'>
         <Link href='/'>
           <a>

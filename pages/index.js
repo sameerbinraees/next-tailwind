@@ -3,7 +3,7 @@ import Image from 'next/image';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
 
 export default function Home() {
-  // TODO: convert this too urls
+  // TODO: convert this to urls and get static props like about page
   const slides = [
     { url: '/img3.png', key: 2, legend: 'Play with pride!' },
     { url: '/img1.png', key: 1, legend: 'Wear with pride!' },
