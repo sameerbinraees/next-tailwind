@@ -3,7 +3,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['iili.io'],
+    domains: ['i.postimg.cc'],
+    // formats: ['image/jpg', 'image/png'],
   },
 };
 

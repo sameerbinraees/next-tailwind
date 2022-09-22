@@ -47,6 +47,18 @@ a {
   box-sizing: border-box;
 }
 
+/* .embla {
+  overflow: hidden;
+} */
+/* .embla__container {
+  display: flex;
+} */
+/* .embla__slide {
+  flex: 0 0 auto; 
+  margin-right: 10%;
+  margin-left: 20%;
+} */
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

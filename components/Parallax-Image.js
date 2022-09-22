@@ -5,16 +5,18 @@ import styles from '../styles/About.module.css';
 function GetExtraInfo({ type }) {
   if (type === 'about')
     return (
-      <div className='p-5 flex flex-col items-center '>
-        <h1 className='leading-10 transition ease-in-out duration-500 hover:-translate-y-1'>
-          We are the LCO!
-        </h1>
-        <h3 className='leading-10 transition ease-in-out duration-500 hover:-translate-y-1'>
-          Find us at LCO Basketball Ground
-        </h3>
-        <h2 className='leading-10 transition ease-in-out duration-500 hover:-translate-y-1'>
-          Go fight for it Team
-        </h2>
+      <div className='flex flex-col items-center text-center'>
+        <div className='p-5 mt-10 mb-10 rounded-lg border border-gray-200 bg-white shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'>
+          <h1 className='leading-10 transition ease-in-out duration-500 hover:-translate-y-1 pb-3'>
+            We are the LCO!
+          </h1>
+          <h3 className='leading-10 transition ease-in-out duration-500 hover:-translate-y-1 pb-3'>
+            Find us at LCO Basketball Ground
+          </h3>
+          <h2 className='leading-10 transition ease-in-out duration-500 hover:-translate-y-1 pb-3'>
+            Go fight for it Team
+          </h2>
+        </div>
       </div>
     );
   if (type === 'values')
