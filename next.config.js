@@ -6,6 +6,7 @@ const nextConfig = {
     domains: ['i.postimg.cc'],
     // formats: ['image/jpg', 'image/png'],
   },
+  experimental: { images: { allowFutureImage: true } },
 };
 
 module.exports = nextConfig;

@@ -5,15 +5,17 @@ import styles from '../styles/About.module.css';
 function GetExtraInfo({ type }) {
   if (type === 'about')
     return (
+      // TODO: apply transition on hover and responsiveness issues on mobile
       <div className='flex flex-col items-center text-center'>
-        <div className='p-5 mt-10 mb-10 rounded-lg border border-gray-200 bg-white shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700'>
-          <h1 className='leading-10 transition ease-in-out duration-500 hover:-translate-y-1 pb-3'>
+        <div className='p-5 mt-10 mb-10 rounded-lg border border-gray-200 bg-white shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700
+        transition ease-in-out duration-500 hover:-translate-y-1'>
+          <h1 className='leading-10 pb-3'>
             We are the LCO!
           </h1>
-          <h3 className='leading-10 transition ease-in-out duration-500 hover:-translate-y-1 pb-3'>
+          <h3 className='leading-10 pb-3'>
             Find us at LCO Basketball Ground
           </h3>
-          <h2 className='leading-10 transition ease-in-out duration-500 hover:-translate-y-1 pb-3'>
+          <h2 className='leading-10 pb-3'>
             Go fight for it Team
           </h2>
         </div>
@@ -22,6 +24,7 @@ function GetExtraInfo({ type }) {
   if (type === 'values')
     return (
       <div>
+         {/* TODO: textual issue of div on mobile */}
         <div
           className=' text-left flex flex-col  m-10 p-6 rounded-lg border border-gray-200 bg-white shadow-md hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700
         transition ease-in-out duration-500 hover:-translate-y-1'
