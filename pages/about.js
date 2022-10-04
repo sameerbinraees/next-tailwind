@@ -12,7 +12,7 @@ const fetchData = async () => [
 
 export default function About({ data }) {
   return (
-    <>
+    <div>
       {data.map((el, i) => {
         return (
           <ParallaxImage
@@ -23,7 +23,7 @@ export default function About({ data }) {
           />
         );
       })}
-    </>
+    </div>
   );
 }
 

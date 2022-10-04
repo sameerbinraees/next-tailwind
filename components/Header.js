@@ -102,7 +102,7 @@ export default function Header(params) {
                 About Us
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/tournament'>
               <a
                 onClick={() => {
                   showMenu(!menu);
@@ -112,7 +112,7 @@ export default function Header(params) {
                 Tournament
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/team'>
               <a
                 onClick={() => {
                   showMenu(!menu);
@@ -122,7 +122,7 @@ export default function Header(params) {
                 Team
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/video'>
               <a
                 onClick={() => {
                   showMenu(!menu);
@@ -132,7 +132,7 @@ export default function Header(params) {
                 Video
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/faq'>
               <a
                 onClick={() => {
                   showMenu(!menu);
@@ -142,7 +142,7 @@ export default function Header(params) {
                 FAQ
               </a>
             </Link>
-            <Link href='/'>
+            <Link href='/contact'>
               <a
                 onClick={() => {
                   showMenu(!menu);
