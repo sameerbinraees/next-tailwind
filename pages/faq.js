@@ -7,7 +7,7 @@ export default function FAQ(params) {
       answer: 'Yes! You can purchase a license that you can share with your entire team.',
     },
     {
-      question: 'Is team pricing available?',
+      question: 'Some other question?',
       answer: 'Yes! You can purchase a license that you can share with your entire team.',
     },
     {
